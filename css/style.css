@@ -111,7 +111,8 @@ a:hover {
 
 .post-image {
     width: 100%;
-    aspect-ratio: 4/3;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     background-color: #fff;
     margin-bottom: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
