@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英文で覚える小学・中学英単語 - Aileron Insight Labs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .app-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .app-icon-large {
+            width: 200px;
+            height: 200px;
+            border-radius: 35px;
+            /* iOS icon style */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+
+        .store-badge {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 10px 20px;
+            background-color: #007aff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .store-badge:hover {
+            background-color: #0056b3;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-title {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        /* Screenshot Carousel Styles */
+        .screenshots-container {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            /* Smooth scrolling on iOS */
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            /* Space for scrollbar */
+        }
+
+        .screenshots-scroll {
+            display: flex;
+            gap: 15px;
+            padding: 0 10px;
+            /* Optional: padding on sides */
+            width: max-content;
+            /* Ensure container expands to fit all images */
+        }
+
+        .screenshot-img {
+            height: 400px;
+            /* Adjust height based on your screenshot aspect ratio */
+            width: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            object-fit: contain;
+            background-color: #f0f0f0;
+            /* Placeholder background */
+        }
+
+        /* Hide scrollbar for cleaner look (optional, but keeps functionality) */
+        .screenshots-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .screenshots-container::-webkit-scrollbar-thumb {
+            background-color: #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="sidebar">
+        <div class="sidebar-header">
+            <h1 class="logo"><a href="index.html">Aileron Insight Labs</a></h1>
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="contact.html">Contact</a></li> -->
+            </ul>
+        </nav>
+
+        <footer class="sidebar-footer">
+            <p>&copy; 2026 Aileron Insight Labs</p>
+        </footer>
+    </header>
+
+    <main class="content-area">
+        <article class="single-post">
+            <header class="entry-header">
+                <div class="app-header">
+                    <img src="assets/images/appIcon001b.png" alt="英文で覚える小学・中学英単語 アイコン" class="app-icon-large">
+                    <h1 class="entry-title">英文で覚える小学・中学英単語</h1>
+                    <p class="subtitle">文脈で生きた意味をマスター！効率を追求した完全無料の学習アプリ</p>
+                    <a href="https://apps.apple.com/app/id6758227322"
+                        style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"
+                        target="_blank">
+                        <!-- Uploaded to: assets/images/app-store-badge.svg -->
+                        <img src="./assets/images/app-store-badge.svg" alt="App Storeからダウンロード"
+                            style="border-radius: 13px; width: 250px; height: 83px;">
+                    </a>
+                </div>
+            </header>
+
+            <div class="screenshots-container">
+                <div class="screenshots-scroll">
+                    <!-- Step 1: Place your screenshot images in assets/images/screenshots/ -->
+                    <!-- Step 2: Name them screen01.png, screen02.png, ... screen06.png -->
+                    <!-- Step 3: Or update the src attributes below to match your filenames -->
+                    <img src="assets/images/screenshots/screen01.jpg" alt="Screenshot 1" class="screenshot-img">
+                    <img src="assets/images/screenshots/screen02.jpg" alt="Screenshot 2" class="screenshot-img">
+                    <img src="assets/images/screenshots/screen03.jpg" alt="Screenshot 3" class="screenshot-img">
+                    <img src="assets/images/screenshots/screen04.jpg" alt="Screenshot 4" class="screenshot-img">
+                    <img src="assets/images/screenshots/screen05.jpg" alt="Screenshot 5" class="screenshot-img">
+                    <img src="assets/images/screenshots/screen06.jpg" alt="Screenshot 6" class="screenshot-img">
+                    <img src="assets/images/screenshots/screen07.jpg" alt="Screenshot 7" class="screenshot-img">
+                </div>
+            </div>
+
+            <div class="entry-content">
+                <h2>【アプリ概要】</h2>
+                <p>英単語の意味は、使われる文脈によって様々に変化します。本アプリは、単語と日本語を1対1で機械的に暗記するのではなく、英文の中での実際の使われ方をそのまま学ぶことを目的とした、小中学生向けの学習アプリです。
+                </p>
+
+                <h2>【最大の特徴：文脈による効率的な学習】</h2>
+                <p>単語を英文という具体的なシチュエーションの中で覚えることは、単なる丸暗記よりも圧倒的に記憶の定着率が高く、効率的です。</p>
+                <ul>
+                    <li><strong>文脈で変わる意味を理解する：</strong>英単語は、前後の言葉とのつながりでニュアンスが変わります。クイズを通じて実際の使われ方を体感することで、実戦で使える語彙力が身につきます。
+                    </li>
+                    <li><strong>1対1暗記からの脱却：</strong>英文穴埋め形式により、単語を文の流れの中で捉える訓練を行うため、読解力や表現力の向上に直結します。</li>
+                </ul>
+
+                <h2>【その他の主な特徴】</h2>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <span class="feature-title">■ 完全無料！課金なしで全コンテンツ解放</span>
+                        <p>アプリ内課金は一切ありません。動画広告を視聴することで、小学生英単語600問以上、中学生英単語2500問以上の膨大なクイズを、最後まで追加料金なしで解ききることが可能です。</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <span class="feature-title">■ 実戦的な力を養う豊富な問題数</span>
+                        <p>小学生から中学生までをカバーする合計3100問以上の圧倒的なボリュームを収録。英検対策、定期テストや高校入試にも役立つ、本質的な英語力を隙間時間で鍛えられます。</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <span class="feature-title">■ 学習をサポートする「おまけ漫画」</span>
+                        <p>学習の合間に一息つける要素として、短いオリジナルの学習漫画をおまけとして収録しています。短時間で読める内容になっており、モチベーションを維持するためのちょっとしたスパイスとして楽しめます。
+                        </p>
+                    </div>
+
+                    <div class="feature-item">
+                        <span class="feature-title">■ お子様にも安心の安全設計</span>
+                        <p>ログイン不要ですぐに始められます。児童オンラインプライバシー保護法（COPPA）を遵守し、13歳未満に不適切なカテゴリ（SNS、ギャンブル等）の広告は徹底して排除。保護者の方も安心してお子様に手渡せる環境です。
+                        </p>
+                    </div>
+                </div>
+
+                <h2>【こんな方におすすめ】</h2>
+                <ul>
+                    <li>単語の丸暗記に限界を感じている小中学生</li>
+                    <li>英文を読み解く本質的な力を効率よく身につけたい方</li>
+                    <li>追加課金を気にせず、質の高い問題を解き続けたい方</li>
+                    <li>安全な学習アプリを探している保護者様</li>
+                </ul>
+            </div>
+        </article>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
