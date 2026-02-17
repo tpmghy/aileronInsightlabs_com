@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (menuToggle && mainNav) {
         menuToggle.addEventListener('click', () => {
-            mainNav.classList.toggle('open');
+            mainNav.classList.toggle('open'); 
         });
     }
 });
